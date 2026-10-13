@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imperial Feet | Professional Foot Care & Nail Fungus Treatment at Home</title>
+<meta name="description" content="Imperial Feet is a Dutch foot-care brand offering professional-quality at-home treatments for toenail fungus, dry cracked feet, calluses and foot odor. Discover the full product range.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--navy:#0a2e4f;--teal:#0e7c6b;--teal-d:#0a5f52;--amber:#f5a623;--bg:#f6faf9;--ink:#22303c;--mut:#5b6b7a}
+body{font-family:'Plus Jakarta Sans','Segoe UI',Arial,sans-serif;color:var(--ink);line-height:1.7;background:var(--bg);-webkit-font-smoothing:antialiased}
+img{max-width:100%}
+a{text-decoration:none}
+.wrap{max-width:1140px;margin:auto;padding:0 22px}
+header{background:rgba(255,255,255,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 2px 16px rgba(10,46,79,.08);position:sticky;top:0;z-index:50}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.nav img{height:50px}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{color:var(--ink);font-weight:600;font-size:15px}
+.nav-links a:hover{color:var(--teal)}
+.btn{display:inline-block;background:var(--teal);color:#fff!important;font-weight:700;padding:12px 30px;border-radius:100px;font-size:15px;transition:.25s;box-shadow:0 8px 20px rgba(14,124,107,.28)}
+.btn:hover{background:var(--teal-d);transform:translateY(-2px)}
+.hero{background:radial-gradient(1100px 500px at 85% -10%,rgba(14,124,107,.25),transparent),linear-gradient(135deg,#0a2e4f 0%,#0d4a63 55%,#0e7c6b 130%);color:#fff;padding:74px 0 84px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.22);color:#fff;font-size:13px;font-weight:700;letter-spacing:.4px;padding:8px 18px;border-radius:100px;margin-bottom:20px}
+.pill .dot{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 10px #4ade80}
+.hero h1{font-size:46px;line-height:1.16;font-weight:800;margin-bottom:16px;letter-spacing:-.5px}
+.hero h1 span{color:#7ef0d4}
+.hero p{font-size:17px;opacity:.92;max-width:520px;margin-bottom:30px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap}
+.btn-white{background:#fff;color:var(--navy)!important;box-shadow:0 10px 26px rgba(0,0,0,.22)}
+.btn-white:hover{background:#eaf6f3;transform:translateY(-2px)}
+.btn-ghost{background:transparent;color:#fff!important;border:2px solid rgba(255,255,255,.5)}
+.btn-ghost:hover{border-color:#fff;transform:translateY(-2px)}
+.hero-visual{position:relative}
+.hero-visual>img{width:100%;border-radius:22px;box-shadow:0 30px 70px rgba(0,0,0,.35)}
+.float-card{position:absolute;background:#fff;color:var(--ink);border-radius:16px;padding:12px 18px;box-shadow:0 16px 40px rgba(0,0,0,.25);display:flex;align-items:center;gap:12px;font-size:14px;font-weight:700}
+.float-card small{display:block;font-weight:500;color:var(--mut);font-size:12px}
+.float-card .ic{width:42px;height:42px;border-radius:12px;background:#e6f5f1;display:flex;align-items:center;justify-content:center;flex:none}
+.fc1{top:22px;left:-24px}
+.fc2{bottom:26px;right:-16px}
+.trust{background:#fff;border-bottom:1px solid #e7eef0}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);text-align:center;padding:26px 0}
+.trust-grid div{padding:6px 10px}
+.trust-grid div+div{border-left:1px solid #e7eef0}
+.trust-grid b{display:block;font-size:24px;color:var(--navy);font-weight:800}
+.trust-grid span{font-size:13px;color:var(--mut);font-weight:600}
+section{padding:72px 0}
+.sec-head{text-align:center;max-width:720px;margin:0 auto 44px}
+.kicker{display:inline-block;color:var(--teal);font-weight:800;font-size:13px;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px}
+.sec-head h2{font-size:34px;color:var(--navy);font-weight:800;letter-spacing:-.4px;margin-bottom:12px}
+.sec-head p{color:var(--mut);font-size:16px}
+.about-card{background:#fff;border-radius:24px;box-shadow:0 20px 60px rgba(10,46,79,.08);overflow:hidden;display:grid;grid-template-columns:1fr 1.15fr}
+.about-card img{width:100%;height:100%;object-fit:cover;min-height:380px}
+.about-body{padding:48px 46px}
+.about-body h2{font-size:30px;color:var(--navy);font-weight:800;margin-bottom:16px;letter-spacing:-.3px}
+.about-body p{color:var(--mut);font-size:15.5px;margin-bottom:14px}
+.about-body p a{color:var(--teal);font-weight:700}
+.checks{margin:20px 0 26px;display:grid;gap:12px}
+.checks li{list-style:none;display:flex;gap:12px;align-items:flex-start;font-size:15px;font-weight:600;color:var(--ink)}
+.checks svg{flex:none;margin-top:3px}
+.prod-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:26px}
+.card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 10px 34px rgba(10,46,79,.08);transition:.3s;display:flex;flex-direction:column;position:relative}
+.card:hover{transform:translateY(-8px);box-shadow:0 22px 50px rgba(10,46,79,.14)}
+.card .ph{position:relative;overflow:hidden;background:#eef4f3}
+.card .ph img{width:100%;height:260px;object-fit:cover;transition:.4s}
+.card:hover .ph img{transform:scale(1.05)}
+.badge{position:absolute;top:14px;left:14px;background:var(--amber);color:#3d2b00;font-size:12px;font-weight:800;padding:6px 14px;border-radius:100px;letter-spacing:.4px}
+.badge.teal{background:var(--teal);color:#fff}
+.card-body{padding:24px 24px 28px;display:flex;flex-direction:column;flex:1}
+.card-body .cat{font-size:12px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;color:var(--teal);margin-bottom:6px}
+.card-body h3{font-size:20px;color:var(--navy);font-weight:800;margin-bottom:8px}
+.card-body p{font-size:14.5px;color:var(--mut);margin-bottom:18px;flex:1}
+.card-body .btn{align-self:flex-start;padding:10px 26px;font-size:14px}
+.steps{position:relative;display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:10px}
+.steps:before{content:"";position:absolute;top:34px;left:6%;right:6%;height:2px;background:linear-gradient(90deg,var(--teal),#7ef0d4);opacity:.4}
+.step{text-align:center;position:relative;padding:0 6px}
+.step .n{width:68px;height:68px;margin:0 auto 16px;border-radius:50%;background:#fff;border:2px solid var(--teal);color:var(--teal);font-size:24px;font-weight:800;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 24px rgba(14,124,107,.18);position:relative;z-index:1}
+.step h4{color:var(--navy);font-size:17px;font-weight:800;margin-bottom:6px}
+.step p{font-size:14px;color:var(--mut)}
+.faq{max-width:800px;margin:0 auto;display:grid;gap:14px}
+.faq details{background:#fff;border-radius:16px;box-shadow:0 6px 20px rgba(10,46,79,.06);overflow:hidden}
+.faq summary{cursor:pointer;list-style:none;padding:20px 26px;font-weight:700;color:var(--navy);font-size:16px;display:flex;justify-content:space-between;align-items:center;gap:14px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .pl{flex:none;width:30px;height:30px;border-radius:50%;background:#e6f5f1;color:var(--teal);font-size:20px;font-weight:800;display:flex;align-items:center;justify-content:center;transition:.25s}
+.faq details[open] summary .pl{transform:rotate(45deg);background:var(--teal);color:#fff}
+.faq details p{padding:0 26px 22px;font-size:15px;color:var(--mut)}
+.faq details p a{color:var(--teal);font-weight:700}
+.cta-band{background:radial-gradient(800px 340px at 50% -40%,rgba(126,240,212,.25),transparent),linear-gradient(135deg,#0a2e4f,#0e7c6b 140%);border-radius:28px;color:#fff;text-align:center;padding:64px 30px;position:relative;overflow:hidden}
+.cta-band h2{font-size:34px;font-weight:800;margin-bottom:12px;letter-spacing:-.4px}
+.cta-band p{max-width:620px;margin:0 auto 28px;opacity:.92}
+.cta-band .hero-cta{justify-content:center}
+footer{background:var(--navy);color:#b9c9d6;padding:38px 0;text-align:center;font-size:14px}
+footer a{color:#fff;font-weight:700}
+footer .flogo{height:44px;margin-bottom:12px;background:#fff;border-radius:10px;padding:6px 14px}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero h1{font-size:34px}.about-card{grid-template-columns:1fr}.steps{grid-template-columns:repeat(2,1fr)}.steps:before{display:none}.trust-grid{grid-template-columns:repeat(2,1fr);gap:18px}.trust-grid div+div{border-left:none}.nav-links a:not(.btn){display:none}.fc1{left:8px}.fc2{right:8px}}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap nav">
+<img src="https://imperialfeet.com/cdn/shop/files/Imperial_Feet_Logo_644fafec-299b-4b3b-aea0-4bc9fb51b65d.png?v=1776683586&width=200" alt="Imperial Feet logo">
+<nav class="nav-links">
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#faq">FAQ</a>
+<a class="btn" href="https://imperialfeet.com?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">Visit Official Website</a>
+</nav>
+</div>
+</header>
+
+<div class="hero">
+<div class="wrap hero-grid">
+<div>
+<span class="pill"><span class="dot"></span>DUTCH FOOT CARE &middot; SINCE 2001</span>
+<h1>Professional Foot Care <span>You Can Do at Home</span></h1>
+<p>Imperial Feet is a third-generation Dutch brand trusted in 20+ countries, with targeted at-home treatments for toenail fungus, dry cracked feet, calluses and foot odor.</p>
+<div class="hero-cta">
+<a class="btn btn-white" href="https://imperialfeet.com?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">Shop Imperial Feet</a>
+<a class="btn btn-ghost" href="https://imperialfeet.com/en-us/collections/nail-fungus-treatment?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">Nail Fungus Treatment</a>
+</div>
+</div>
+<div class="hero-visual">
+<img src="https://imperialfeet.com/cdn/shop/files/Homeslide.jpg?v=1614323256&width=1200" alt="Professional pedicurist in gloves holding Imperial Feet Nail Mycosis solution bottle next to a foot">
+<div class="float-card fc1"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0e7c6b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><span>20+ Countries<small>Salon &amp; pharmacy trusted</small></span></div>
+<div class="float-card fc2"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0e7c6b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><span>Family Run<small>Since 2001</small></span></div>
+</div>
+</div>
+</div>
+
+<div class="trust">
+<div class="wrap trust-grid">
+<div><b>2001</b><span>Family brand founded</span></div>
+<div><b>20+</b><span>Countries served</span></div>
+<div><b>2</b><span>Production countries: NL &amp; USA</span></div>
+<div><b>3rd</b><span>Generation formulators</span></div>
+</div>
+</div>
+
+<section id="about" style="padding-bottom:20px">
+<div class="wrap">
+<div class="sec-head">
+<span class="kicker">About the brand</span>
+<h2>Foot Care Built on Three Generations of Know-How</h2>
+</div>
+<div class="about-card">
+<img loading="lazy" src="https://imperialfeet.com/cdn/shop/files/Ontwerpzondertitel_13.png?v=1755508659&width=800" alt="Imperial Feet product range: stainless steel foot file, Callus Softener spray and Urea Foot Balm">
+<div class="about-body">
+<h2>Why Imperial Feet?</h2>
+<p><a href="https://imperialfeet.com?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">Imperial Feet</a> began in 2001 as a Dutch family passion for healthy feet. Today, led by owner Sylke Bommel, its professional formulas are used by pedicurists, podiatrists and pharmacies across more than 20 countries, including the United States.</p>
+<ul class="checks">
+<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0e7c6b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Penetration-first antifungal approach: soften the nail so ingredients reach the infection</li>
+<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0e7c6b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Complete routines: treat nails, disinfect shoes, soak and care for skin</li>
+<li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0e7c6b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Made in the Netherlands and the USA to professional standards</li>
+</ul>
+<p>Instead of masking symptoms, every product is built around how feet actually heal. Their <a href="https://imperialfeet.com/en-us/collections/nail-fungus-treatment?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">nail fungus treatment</a> line prepares and softens the nail plate first, so antifungal ingredients can reach the infection underneath instead of sitting on top of hard nail.</p>
+<a class="btn" href="https://imperialfeet.com?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">Explore the Brand</a>
+</div>
+</div>
+</div>
+</section>
+
+<section id="products" style="padding-top:52px">
+<div class="wrap">
+<div class="sec-head">
+<span class="kicker">The range</span>
+<h2>Five Targeted Treatments, One Complete Routine</h2>
+<p>Treat the nail, disinfect the shoe, soak and soften the skin: every step of at-home foot care, covered.</p>
+</div>
+<div class="prod-grid">
+<div class="card">
+<div class="ph"><span class="badge">BESTSELLER</span><img loading="lazy" src="https://imperialfeet.com/cdn/shop/files/Nail_Fungus_Solution_Imperial_Feet.png?v=1780939551&width=800" alt="Hand applying Imperial Feet Nail Mycosis solution drops onto a discolored toenail"></div>
+<div class="card-body"><span class="cat">Antifungal</span><h3>Nail Mycosis Solution</h3><p>The solution for nail mycosis (toe fungus) with glycerin, jojoba oil and tea tree oil. Applied directly to the nail twice daily. Made in the Netherlands.</p><a class="btn" href="https://imperialfeet.com/en-us/products/toe-fungus-solution?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">View Product</a></div>
+</div>
+<div class="card">
+<div class="ph"><img loading="lazy" src="https://imperialfeet.com/cdn/shop/files/Shoeensockspraykopie.jpg?width=800" alt="Imperial Feet Shoe and Sock Spray bottle for disinfecting shoes and socks"></div>
+<div class="card-body"><span class="cat">Protection</span><h3>Shoe &amp; Sock Spray</h3><p>Antifungal spray that disinfects shoes and socks. Designed to be used together with the Nail Mycosis Solution to prevent reinfection from footwear.</p><a class="btn" href="https://imperialfeet.com/en-us/products/anti-fungal-shoe-disinfectant-spray?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">View Product</a></div>
+</div>
+<div class="card">
+<div class="ph"><img loading="lazy" src="https://imperialfeet.com/cdn/shop/files/2_82be204e-37a6-4ade-9e21-ec50e2b7cee4.png?width=800" alt="Imperial Feet Nail and Sole Foot Soak pouch with tea tree oil and epsom salt, front and back view"></div>
+<div class="card-body"><span class="cat">Soak</span><h3>Nail &amp; Sole Foot Soak</h3><p>Pedicure-strength foot soak with tea tree oil and epsom salt (450 g). Softens hard skin, improves the appearance of yellow toenails and refreshes tired feet.</p><a class="btn" href="https://imperialfeet.com/en-us/products/anti-fungal-foot-soak?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">View Product</a></div>
+</div>
+<div class="card">
+<div class="ph"><img loading="lazy" src="https://imperialfeet.com/cdn/shop/files/Footbalmbluekopie_59c44619-4158-445b-bcf6-7645d35b7a13.jpg?width=800" alt="Imperial Feet Foot Balm Blue pump bottle for dry and cracked feet"></div>
+<div class="card-body"><span class="cat">Daily care</span><h3>Foot Balm Blue</h3><p>Daily foot balm for dry and cracked feet with glycerin and extracts of rosemary and pine. Keeps skin supple between treatments.</p><a class="btn" href="https://imperialfeet.com/en-us/products/foot-balm-blue?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">View Product</a></div>
+</div>
+<div class="card">
+<div class="ph"><span class="badge teal">2-STEP SYSTEM</span><img loading="lazy" src="https://imperialfeet.com/cdn/shop/files/1_31390e4e-4402-49f6-9066-6007d2e59afc.jpg?width=800" alt="Imperial Feet Fungal Nail Treatment Kit: Shoe and Sock Spray bottle next to Nail Mycosis Solution bottle"></div>
+<div class="card-body"><span class="cat">Complete kit</span><h3>Fungal Nail Treatment Kit</h3><p>The complete two-step system: Nail Mycosis Solution for the nails plus Shoe &amp; Sock Spray to disinfect footwear and stop the cycle of reinfection.</p><a class="btn" href="https://imperialfeet.com/en-us/products/fungal-nail-treatment-kit?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">View Product</a></div>
+</div>
+</div>
+</div>
+</section>
+
+<section style="padding-top:20px">
+<div class="wrap">
+<div class="sec-head">
+<span class="kicker">How it works</span>
+<h2>Your Simple At-Home Foot Care Routine</h2>
+</div>
+<div class="steps">
+<div class="step"><span class="n">1</span><h4>Clean &amp; Dry</h4><p>Wash feet daily and dry thoroughly, especially between the toes where moisture feeds fungus.</p></div>
+<div class="step"><span class="n">2</span><h4>Soften</h4><p>Soak with the Nail &amp; Sole Foot Soak to soften thickened nails and hard skin so treatments penetrate.</p></div>
+<div class="step"><span class="n">3</span><h4>Treat</h4><p>Apply the Nail Mycosis Solution every day for months. Nails grow slowly; patience wins.</p></div>
+<div class="step"><span class="n">4</span><h4>Protect</h4><p>Spray shoes and socks with the Shoe &amp; Sock Spray and rotate footwear to stop reinfection.</p></div>
+</div>
+</div>
+</section>
+
+<section id="faq" style="padding-top:20px">
+<div class="wrap">
+<div class="sec-head">
+<span class="kicker">Good to know</span>
+<h2>Frequently Asked Questions</h2>
+</div>
+<div class="faq">
+<details open>
+<summary>How long does toenail fungus treatment take?<span class="pl">+</span></summary>
+<p>Toenails grow very slowly: a full nail can take around a year to replace itself, so antifungal routines need months of daily consistency before the healthy nail fully grows out. Stopping early is the most common reason treatments appear to fail. Explore the <a href="https://imperialfeet.com/en-us/collections/nail-fungus-treatment?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">nail fungus treatment</a> range to build a routine you can stick with.</p>
+</details>
+<details>
+<summary>Why should I disinfect my shoes during treatment?<span class="pl">+</span></summary>
+<p>Fungal spores survive in warm, damp shoes and socks, so freshly treated nails can easily get reinfected from your own footwear. The <a href="https://imperialfeet.com?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">Imperial Feet</a> Shoe &amp; Sock Spray is made to disinfect shoes and socks alongside the nail treatment, breaking that cycle.</p>
+</details>
+<details>
+<summary>What does the Nail &amp; Sole Foot Soak do?<span class="pl">+</span></summary>
+<p>It is a pedicure-strength soak with tea tree oil and epsom salt. Regular soaking softens hard skin and thickened nails, which helps topical treatments penetrate better, while improving the appearance of yellow toenails and refreshing tired, itchy feet.</p>
+</details>
+<details>
+<summary>Can I use these products for dry, cracked heels too?<span class="pl">+</span></summary>
+<p>Yes. Alongside the antifungal range, Imperial Feet makes daily-care products like Foot Balm Blue with glycerin, rosemary and pine extracts for dry and cracked feet. If you have diabetes or circulation problems, check with your doctor before starting any new foot-care routine.</p>
+</details>
+<details>
+<summary>Where are Imperial Feet products made?<span class="pl">+</span></summary>
+<p>The range is developed in the Netherlands and manufactured in the Netherlands and the USA. The brand has been family-run since 2001 and its professional formulas are used by pedicurists and pharmacies in more than 20 countries.</p>
+</details>
+</div>
+</div>
+</section>
+
+<section style="padding-top:10px">
+<div class="wrap">
+<div class="cta-band">
+<h2>Start Healthier Feet Today</h2>
+<p>Explore the full Imperial Feet range: nail fungus treatments, urea foot creams, callus softeners, antifungal foot soaks and professional foot-care tools.</p>
+<div class="hero-cta">
+<a class="btn btn-white" href="https://imperialfeet.com?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">Visit ImperialFeet.com</a>
+<a class="btn btn-ghost" href="https://imperialfeet.com/en-us/collections/nail-fungus-treatment?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">Nail Fungus Treatment</a>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="wrap">
+<img class="flogo" src="https://imperialfeet.com/cdn/shop/files/Imperial_Feet_Logo_644fafec-299b-4b3b-aea0-4bc9fb51b65d.png?v=1776683586&width=200" alt="Imperial Feet logo">
+<p>This is an independent informational page about <a href="https://imperialfeet.com?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">Imperial Feet</a> foot-care products. For the official store, visit <a href="https://imperialfeet.com?utm_source=UTMSOURCE&utm_medium=referral&utm_campaign=backlinks">imperialfeet.com</a>.</p>
+</div>
+</footer>
+
+</body>
+</html>
